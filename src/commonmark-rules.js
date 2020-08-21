@@ -5,8 +5,9 @@ var rules = {}
 rules.paragraph = {
   filter: 'p',
 
+  // Journey
   replacement: function (content) {
-    return '\n\n' + content + '\n\n'
+    return '\n' + content + '\n'
   }
 }
 
